@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,55 @@
     <link rel="stylesheet" href="./global/css/bootstrap.min3f0d.css">
     <link rel="stylesheet" href="./global/css/waves.min3f0d.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Chat Bot</title>
 </head>
+
 <body>
     <div class="chatbot">
         <div class="panel boxchatbot" style="width: 55%;">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12" style="display: flex; align-items: center;justify-content: space-between;">
-                            <div class="heading-left col-10 col-md-10 col-ld-10">
-                                <div class="icon-robot">
-                                    <i class="fa-solid fa-robot"></i>
-                                </div>
-                                <span class="font-size-20 font-weight-600">Chat Bot</span>
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12" style="display: flex; align-items: center;justify-content: space-between;">
+                        <div class="heading-left col-10 col-md-10 col-ld-10">
+                            <div class="icon-robot">
+                                <i class="fa-solid fa-robot"></i>
                             </div>
-                            <div class="heading-right col-2 col-md-2 col-lg-2 font-size-24">
-                                <i class="fa-solid fa-xmark"></i>
-                            </div>
+                            <span class="font-size-20 font-weight-600">Chat Bot</span>
+                        </div>
+                        <div class="heading-right col-2 col-md-2 col-lg-2 font-size-24">
+                            <i class="fa-solid fa-xmark"></i>
                         </div>
                     </div>
                 </div>
-                <div class="panel-body" style="height: 400px; padding: 10px; position: relative;">
-                    <div class="col-md-12" style="padding: 0px; height: 100%;">
-                        <div class="chatbox">
-                            <div class="chat incoming" style="display: flex;">
-                                <div class="icon-robot">
-                                    <i class="fa-solid fa-robot"></i>
-                                </div>
-                                <p class="text">Hello</p>
+            </div>
+            <div class="panel-body" style="height: 400px; padding: 10px; position: relative;">
+                <div class="col-md-12" style="padding: 0px; height: 100%;">
+                    <div class="chatbox">
+                        <div class="chat incoming" style="display: flex;">
+                            <div class="icon-robot">
+                                <i class="fa-solid fa-robot"></i>
                             </div>
+                            <p class="text">Hello</p>
                         </div>
                     </div>
                 </div>
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-12 col-12" style="display: flex; align-items: center;">
-                            <div class="message">
-                                <input type="text" placeholder="Nhập tin nhắn...">
-                            </div>
-                            <div class="send" style="display: flex; align-items: center;">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-12" style="display: flex; align-items: center;">
+                        <div class="message">
+                            <input type="text" placeholder="Nhập tin nhắn...">
+                        </div>
+                        <div class="send" style="display: flex; align-items: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
                                 </svg>
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
         <div class="panel home" style="width: 55%; position: absolute;">
             <div class="panel-body">
@@ -90,6 +93,7 @@
 <script src="./app.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+    AOS.init();
 </script>
+
 </html>
