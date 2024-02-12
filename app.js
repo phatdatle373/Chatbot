@@ -21,7 +21,7 @@ $(function() {
         fetch(API_URL, option).then(res => res.json()).then(data => {
             contentBot.innerHTML = data.choices[0].message.content;
         }).catch((error) => {
-            contentBot.innerHTML = "Error"
+            contentBot.innerHTML = "Lỗi"
         }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
     }
 
